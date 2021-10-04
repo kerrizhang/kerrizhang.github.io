@@ -43,7 +43,7 @@ html{
 #home{
     display: flex;
     flex-direction: column;
-    height: 650px;
+    height: 745px;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -55,15 +55,15 @@ html{
     top: 0;
     left: 0;
     background: url('HomePage.jpg') no-repeat center center/cover;
-    height: 700px;
+    height: 100%;
     width: 100%;
     z-index: -1;
     opacity: .8;
 }
-.heading{
-    color: white;
+.headings{
+    color: #c1c8d4;
     font-size: 3rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Amarante", Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     transform: scale(1,1.3);
 }

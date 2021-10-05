@@ -46,7 +46,7 @@
 #home{
     display: flex;
     flex-direction: column;
-    height: 745px;
+    /* height: 745px; */
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -61,10 +61,10 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: .8;
+    opacity: .6;
 }
 .headings{
-    color: #c1c8d4;
+    color: white;
     font-size: 3rem;
     font-family: "Amarante", Georgia, 'Times New Roman', Times, serif;
     text-align: center;

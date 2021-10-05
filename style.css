@@ -67,6 +67,7 @@
     color: white;
     font-size: 3rem;
     font-family: "Amarante", Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
     text-align: center;
     transform: scale(1,1.3);
 }

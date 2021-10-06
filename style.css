@@ -11,6 +11,7 @@
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 .navbar{
     display: flex;
@@ -105,37 +106,6 @@
     cursor: pointer;
 }
 
-/* Education Section */
-#education{
-    display: flex;
-    flex-direction: column;
-    background-color: #000000dc;
-}
-#education h1{
-    margin: 60px;
-}
-.columns{
-    display: grid;
-    grid-template-columns: auto auto;
-    padding-left: 50px;
-}
-.box{
-    height: 200px;
-    width: 500px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    margin: 10px;
-    padding: 20px;
-}
-.box h2{
-    color: yellowgreen;
-    font-size: 2rem;
-    margin-bottom: 40px;
-}
-.box p{
-    color: white;
-    font-size: 1.1rem;
-}
 
 /* About Section */
 * {
@@ -145,7 +115,7 @@
   /* Set a background color */
   body {
     background-color: #474e5d;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Fira Code', Helvetica, sans-serif;
   }
   
   /* The actual timeline (the vertical ruler) */

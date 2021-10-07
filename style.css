@@ -112,9 +112,6 @@
 }
 
 
-
-
-
 /* About Section */
 * {
     box-sizing: border-box;
@@ -260,7 +257,7 @@
 #portfolio{
   display: flex;
   flex-direction: column;
-  background: linear-gradient(rgb(193,200,212) 0%, rgb(124, 115, 124) 100%); 
+  background: linear-gradient(rgba(204,189,168,255) 0%, rgb(94, 60, 59) 100%); 
 }
 #portfolio h1{
   margin: 60px;
@@ -269,6 +266,19 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.whiteTextOverride
+{
+ color: white !important;
+}
+.greyTextOverride
+{
+ color: #3f4248 !important;
 }
 
 /* Contact Section */
